@@ -155,6 +155,38 @@
     a.splice(1, 0, 15);
     console.log(a);
 
+          // var a=[10,20,30];
+        // for(var i of a){
+        //     console.log(i);
+        // }
+    
+        // function show(){
+        //     console.log("Show is running");
+        // }
+        // show()
+    
+        // function show(temp){
+        //     temp();}
+        // show (function(){
+        //     console.log("ABC");
+        // }) //nameless function calling
+
+        //for each
+        var arr=[10, 20, 30, 40, 50];
+        arr.forEach(function(v,i,a){
+            console.log(v)
+        })
+
+        var arr=[10, 20, 30, 40, 50];
+        arr.forEach(function(v,i,a){
+            console.log(i)
+        })
+
+        var arr=[10, 20, 30, 40, 50];
+        arr.forEach(function(v,i,a){   //Callback function
+            console.log(a)
+        })
+
 
 
 </script>
